@@ -26,4 +26,4 @@ tags: life
 * [jekyll模板](http://jekyllthemes.org/)
 * [Grunt](http://www.gruntjs.net/)
 * [Bootstrap](http://v3.bootcss.com/)
-
+* [godaddy配置](http://andrewsturges.com/blog/jekyll/tutorial/2014/11/06/github-and-godaddy.html)
