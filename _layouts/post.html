@@ -243,9 +243,8 @@ layout: default
 <script>
     async("//cdnjs.cloudflare.com/ajax/libs/anchor-js/1.1.1/anchor.min.js",function(){
         anchors.options = {
-          visible: 'always',
-          placement: 'right',
-          icon: '#'
+          visible: 'touch',
+          placement: 'right'
         };
         anchors.add().remove('.intro-header h1').remove('.subheading').remove('.sidebar-container h5');
     })
@@ -258,6 +257,7 @@ layout: default
             left: -0.75em;
             font-size: 1.1em;
             margin-top : -0.1em;
+            text-decoration: none;
         }
     }
 </style>
