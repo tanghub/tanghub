@@ -1,6 +1,6 @@
 /*!
  * Tang Blog v1.7.0 (http://tangblog.github.io)
- * Copyright 2017 
+ * Copyright 2018 
  */
 
 @media (min-width: 1200px) {
@@ -629,11 +629,12 @@ pre code {
   margin: 0;
   font-weight: 300;
   margin-bottom: 10px;
+  font-style: italic;
 }
 .post-preview > .post-meta {
   font-family: 'Lora', 'Times New Roman', serif;
   color: #808080;
-  font-size: 16px;
+  font-size: 14px;
   font-style: italic;
   margin-top: 0;
 }
@@ -656,12 +657,12 @@ pre code {
     font-size: 16px;
   }
   .post-preview .post-meta {
-    font-size: 18px;
+    font-size: 16px;
   }
 }
 .post-content-preview {
   font-size: 13px;
-  font-style: italic;
+  /*font-style: italic;*/
   color: #a3a3a3;
 }
 .post-content-preview:hover {

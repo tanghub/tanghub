@@ -11,7 +11,6 @@ tags: life
     
 ---
 
-## IOS workflow 初探
 
 Workflow 在被[Apple Inc.](http://www.apple.com/)收购之后开始了免费之路，一下子火了起来，国人对免费向来比较崇尚，身边的人用的人也越来越多...
 

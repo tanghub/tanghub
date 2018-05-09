@@ -4,7 +4,7 @@ title:      "Blog Open Celebration"
 subtitle:   "tang's blog open celebration"
 date:       2017-03-16
 author:     "Tang"
-header-img: ""
+header-img: "img/celebration.jpg"
 header-mask: 0.3
 catalog:    true
 tags: life
@@ -12,9 +12,6 @@ tags: life
 ---
 
 
-
-
-## Tang's Blog Opening
 
 近年来基于github pages个人博客非常流行，也是一直想试着搭一个，苦于时间问题，直到最近...也算完成了一个小心愿。通过[jekyll](http://jekyll.com.cn/)静态网站生成器，配合github pages提供的300M的免费空间相当不错。过程中也可学习github，liquid，bootstrap，nodejs等相关技术，也算是给多年服务端的开发做一些额外充电吧。
 
