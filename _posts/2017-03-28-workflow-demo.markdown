@@ -4,7 +4,7 @@ title:      "IOS Workflow 初探"
 subtitle:   "IOS Workflow Demo"
 date:       2017-03-28
 author:     "Tang"
-header-img: ""
+header-img: "img/workflow/workflow.jpg"
 header-mask: 0.3
 catalog:    true
 tags: life
