@@ -394,6 +394,7 @@ pre code {
   background: none;
   border: none;
   position: absolute;
+  min-height: 48px;
   top: 0;
   left: 0;
   width: 100%;
@@ -408,11 +409,18 @@ pre code {
 .navbar-custom .navbar-brand {
   font-weight: 800;
   color: white;
-  height: 56px;
+  /*height: 56px;*/
+  height: 48px;
   line-height: 25px;
+  padding-top: 12px;
 }
 .navbar-custom .navbar-brand:hover {
   color: rgba(255, 255, 255, 0.8);
+}
+.navbar-custom .navbar-brand > img {
+  width: 27px;
+  height: 23px;
+  cursor: pointer;
 }
 .navbar-custom .nav li a {
   text-transform: uppercase;
@@ -997,7 +1005,8 @@ img::-moz-selection {
 /* tang customize Style for navBar button */
 .navbar-default .navbar-toggle {
   border-color: transparent;
-  padding: 19px 16px;
+  /*padding:19px 16px;*/
+  padding: 15px 16px;
   margin-top: 2px;
   margin-right: 2px;
   margin-bottom: 2px;

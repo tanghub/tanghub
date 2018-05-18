@@ -9,7 +9,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="{{ site.baseurl }}/">{{ site.title }}</a>
+            <a class="navbar-brand" href="{{ site.baseurl }}/"><img src="/img/home.png" /></a>
         </div>
 
         <!-- Collect the nav links, forms, and other content for toggling -->
@@ -82,4 +82,19 @@
         if(e.target.className == 'icon-bar') return;
         nav.close();
     })
+
+    window.onscroll = function(){
+        if ($(document).width() > 768) {
+            return;
+        }
+        var scrollTop =  document.body.scrollTop || document.documentElement.scrollTop;
+        var $nav = $('.navbar-custom ');
+        if(scrollTop > 245){
+            $nav.css({"box-shadow": "0 0 4px rgba(0,0,0,.14), 0 4px 8px rgba(0,0,0,.28)", "position":"fixed", });
+            $(".navbar-header").css({"background-color":"#4285f4"});
+        } else {
+            $nav.css({"box-shadow":"","background":" 0 0","position":"absolute", });
+            $(".navbar-header").css({"background-color":""});
+        }
+    }
 </script>
