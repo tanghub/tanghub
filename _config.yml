@@ -1,11 +1,11 @@
 # Site settings
-title: Tang Blog
-SEOTitle: 唐的博客 | Tang Blog
+title: Tang Space
+SEOTitle: 唐的空间 | Tang Space
 header-img: img/home-bg.jpg
 email: tangextr@gmail.com
 description: "记录生活，工作的点滴...给未来的自己"
 keyword: "生活，工作，java，互联网，金融"
-url: "https://tangis.me"              # your host, for absolute URL
+url: "https://tangs.space"              # your host, for absolute URL
 baseurl: ""                             # for example, '/blog' if your blog hosted on 'host/blog'
 
 
